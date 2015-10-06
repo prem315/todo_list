@@ -21,20 +21,17 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'bootswatch-rails'
+gem 'simple_form'
 
 
 
 group :development, :test do
   gem 'sqlite3'
- 
   gem 'byebug'
 end
 
 group :development do
-  
   gem 'web-console', '~> 2.0'
-
-  
   gem 'spring'
 end
 
